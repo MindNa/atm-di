@@ -1,4 +1,4 @@
-package resources;
+package atmjavaconfig;
 
 import atmjavaconfig.ATM;
 import atmjavaconfig.ATMSimulator;

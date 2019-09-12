@@ -1,7 +1,6 @@
 package atmjavaconfig;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import resources.Javaconfig;
 
 public class Main {
     public static void main(String[] args) {
