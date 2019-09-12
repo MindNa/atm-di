@@ -33,10 +33,10 @@ public class DataSource {
                 Statement statement = conn.createStatement();
                 ResultSet resultSet = statement.executeQuery(query);
                 while (resultSet.next()){
-                    int customerNumber = resultSet.getInt(1);
+                    int number = resultSet.getInt(1);
                     int pin = resultSet.getInt(2);
-                    int account = resultSet.getInt(3);
-                    Customer c = new Customer(customerNumber,pin,account);
+                    double currentBalance = resultSet.getDouble(3);
+                    Customer c = new Customer(number,pin,currentBalance);
                     customers.put(c.getCustomerNumber(),c);
                 }
                 conn.close();
