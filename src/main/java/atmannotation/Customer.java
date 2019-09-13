@@ -1,7 +1,5 @@
 package atmannotation;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 /**
  * A bank customer with a checking and a savings account.
  */

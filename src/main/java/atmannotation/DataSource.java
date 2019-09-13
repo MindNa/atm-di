@@ -18,7 +18,7 @@ public class DataSource {
     /**
      * @param filename the name of the customer file
      */
-    public DataSource(@Value("customer.txt") String filename) {
+    public DataSource(@Value("customers.txt") String filename) {
         this.filename = filename;
     }
 
